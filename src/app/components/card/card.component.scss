@@ -1,0 +1,26 @@
+.example-card {
+  // max-width: 400px;
+  padding:5px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.mat-card-title {
+  font-size: 1rem;
+}
+
+.mat-card-header{
+  height: 70px;
+}
+.mat-card-image{
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-content{
+  h5{
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,30 @@
+
+<div class="bg">
+<app-spinner></app-spinner>
+<app-slider></app-slider>
+
+<div class="container mt-4 mb-4">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="../../../assets/img/logoHome.png" alt="Museo de Buin">
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex flex-column">
+        <h2>{{ myUser.name }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let number of [0, 1, 2, 3] ; let i = index" [attr.data-index]="i">
+      <div class="cards-group">
+      <app-card></app-card>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

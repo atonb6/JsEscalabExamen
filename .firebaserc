@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularexamen-3d51a": {
+      "hosting": {
+        "angularEscalabFinal": [
+          "angularexamen-3d51a"
+        ]
+      }
+    }
+  }
+}

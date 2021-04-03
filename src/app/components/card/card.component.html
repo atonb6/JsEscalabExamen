@@ -1,0 +1,22 @@
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image" [ngStyle]="{'background-image': getUrl()}"></div>
+    <mat-card-title>{{obra.title}}</mat-card-title>
+    <mat-card-subtitle>{{obra.culture}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <h4>{{counter}}</h4>
+  <img
+    mat-card-image
+    src="{{obra.primaryImage}}"
+    alt="{{obra.title}}"
+    onerror="this.src='../../../assets/img/images.png';"
+  />
+  <mat-card-content class="card-content">
+   <p>{{obra.department}}</p>
+   <p>{{obra.accessionYear}}</p>
+   <h5>{{obra.artistDisplayName}}</h5>
+   <h6>{{obra.repository}}</h6>
+  </mat-card-content>
+</mat-card>
